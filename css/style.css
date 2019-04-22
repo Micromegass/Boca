@@ -1,0 +1,131 @@
+body {
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-family: 'Staatliches', cursive;
+  background: #FFFCE1;
+
+ }
+
+/* navbar */
+ul li {
+ float: right;
+ list-style: none;
+ margin-right: 1em;
+ margin-top: 1em;
+}
+
+li a {
+ color: black;
+ text-decoration: none;
+ float: right;
+ font-size: 23px;
+ padding: 12px;
+}
+
+li a:hover {
+ color: #7eb9be;
+}
+
+li a:hover {
+	-webkit-transform: rotate(-10deg) scale(1.2);
+	-moz-transform: rotate(-10deg) scale(1.2);
+	-o-transform: rotate(-10deg) scale(1.2);
+}
+
+.left a:hover {
+ /*Transition*/
+ -webkit-transition:All .5s ease;
+ -moz-transition:All .5s ease;
+ -o-transition:All .5s ease;
+ /*Transform*/
+ -webkit-transform: rotate(-10deg) scale(1.2);
+ -moz-transform: rotate(-10deg) scale(1.2);
+ -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.right a:hover {
+ /*Transition*/
+ -webkit-transition:All .5s ease;
+ -moz-transition:All .5s ease;
+ -o-transition:All .5s ease;
+ /*Transform*/
+ -webkit-transform: rotate(10deg) scale(1.2);
+ -moz-transform: rotate(10deg) scale(1.2);
+ -o-transform: rotate(10deg) scale(1.2);
+}
+/* navbar end  */
+
+
+.nav_logo {
+  float: left;
+  margin-top: 1rem;
+  margin-left: 15px;
+  width: 50%;
+}
+
+
+#home {
+}
+
+.headings {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.description {
+  font-size: 1.8rem;
+}
+
+
+
+/* #About, #Music, #Shows, #Shop, #Videos, #Contact {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.insta {
+  padding-top: 90px;
+}
+
+.insta img {
+  border-radius: 30px;
+  padding: 15px;
+  width: 200px;
+  height: 200px;
+
+}
+
+.social {
+  display: block;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+#Banner {
+  background: url(../images/Houseparty_CD_dup.jpg) no-repeat center;
+  max-width: 100%;
+  padding-bottom: 500px;
+}
+
+#Music{
+  padding-bottom: 100px;
+  padding-top: 50px;
+  background: url(../images/party2.jpeg) no-repeat center center fixed;
+}
+
+
+
+
+#Picture {
+  padding-bottom: 100px;
+  padding-top: 300px;
+  margin-top: 100px;
+  background: url(../images/dinos.jpeg) no-repeat center center fixed;
+
+} */
