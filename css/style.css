@@ -1,7 +1,8 @@
 body {
-  font-family: 'Zilla Slab Highlight', cursive;
+  /* font-family: 'Zilla Slab Highlight', cursive; */
   font-family: 'Staatliches', cursive;
-  background: #FFFCE1;
+  /* background: #FFFCE1; */
+  background: black;
 
  }
 
@@ -54,21 +55,114 @@ li a:hover {
 }
 /* navbar end  */
 
+#boca {
+  padding-bottom: 200px;
+  background: url(../images/food/taco.jpeg) no-repeat center center fixed;
+}
+
+#info {
+  background: black;
+  color: whitesmoke;
+  padding: 40px;
+}
+
+#food-background {
+  padding-bottom: 200px;
+  padding-top: 300px;
+  background: url(../images/food/taco2.jpeg) no-repeat center center fixed;
+  margin-bottom: 100px;
+}
+
+#food-background-pulledpork {
+  padding-bottom: 200px;
+  padding-top: 300px;
+  background: url(../images/food/pulled.jpg) no-repeat center center fixed;
+  margin-bottom: 100px;
+  margin-top:100px;
+}
+
+
+#menu {
+  margin-bottom: 100px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: auto;
+    right: auto;
+    color: rgb(0,124,114);
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(0,124,114);
+    box-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.opening-banner {
+  margin-bottom: 100px;
+}
 
 .nav_logo {
+  width: 500px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+.logo-left-up {
+  width: 100px;
+  height: 100px;
   float: left;
-  margin-top: 1rem;
-  margin-left: 15px;
-  width: 50%;
+  margin-top: 10px;
+  padding: 10px;
+  transform: rotate(-20deg);
+  border-radius: 50px;
 }
 
-
-#home {
+.quesadilla {
+  width: 800px;
+  height: 500px;
+  border-radius: 40px;
 }
 
-.headings {
+.boca-front {
+  width: 700px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.siesta {
+  border-radius: 300px;
+}
+/* centralizing imgs carousel*/
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+
+.opening-banner {
   text-align: center;
-  padding-bottom: 30px;
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+.boca-info-text {
+  font-size: 1.9rem;
+  text-align: justify;
+}
+
+.social {
+  display: block;
+  text-align: center;
+  margin-top:30px;
+  font-size: 1.5rem;
+}
+
+.social a {
+  padding: 10px;
 }
 
 .description {
