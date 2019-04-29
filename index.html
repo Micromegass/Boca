@@ -39,7 +39,7 @@
             </button>
           </div>
           <div class="collapse navbar-collapse" id="nav-collapse">
-            <span class="nav_logo hidden-xs logo-container" class="right"><img class="logo-left-up" src="images/logo.jpg" alt="logo Boca"></span>
+            <!-- <span class="nav_logo hidden-xs logo-container" class="right"><img class="logo-left-up" src="images/logo.jpg" alt="logo Boca"></span> -->
             <ul id="nav" class="nav navbar-nav" style="float:right;">
               <li class="right hidden-md hidden-sm"><a href="#boca">DAS BOCA</a></li>
               <li class="left hidden-sm"><a href="#info">INFO</a></li>
@@ -54,33 +54,9 @@
 <!-- slider -->
 <div class="container">
   <div id="myCarousel" class="my-carousel carousel slide" data-ride="carousel">
-    <!-- Carousel indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <!-- Wrapper for carousel items -->
     <div class="carousel-inner">
       <div class="item active">
         <img class="nav_logo" src="images/logo.jpg" alt="Boca Logo" id="slider1" title="Design: Maren :: & David Leutert">
-          <div class="carousel-caption">
-             <h4> ¡SIEMPRE BIENVENIDOS! </h4>
-          </div>
-      </div>
-      <div class="item">
-        <img class="boca-front" src="images/food/tofu.jpeg" alt="Boca von außen" id="slider2"
-              title="Foto: Marco Gräser">
-        <div class="carousel-caption">
-           <h4> Mexikanische Küche </h4>
-        </div>
-      </div>
-      <div class="item">
-        <img class="quesadilla" src="images/food/quesadilla.jpeg" alt="Quesadilla im Boca" id="slider3"
-            title="Foto: Marco Gräser">
-        <div class="carousel-caption">
-           <h4> Quesadilla im Boca </h4>
-        </div>
       </div>
     </div>
   </div>
@@ -102,21 +78,21 @@
         <div class="box col-md-4 col-lg-4">
           <img class="siesta img-responsive" src="images/siesta_siempre.jpg" alt="Siesta Siempre im Boca">
         </div>
-        <div class="box col-md-7 col-lg-7 col-lg-offset-1 boca-info-text">
+        <div class="box col-md-6 col-lg-7 col-lg-offset-1 boca-info-text">
             Das BOCA eröffnete am 30.April 2019 und hat es sich zum Ziel gesetzt, mexikanische
             Spezialitäten mit lokalen Köstlichkeiten zu vereinen. Bei feurigen Burritos, cremigen Quesadillas und
             erfrischenden Margaritas fühlt man sich im BOCA wie in Tjuana, kann aber gleichzeitig auch saisonale Biere
             genießen.
             <br><br>
-
-            Helmstraße 2 <br>
-            90768 Fürth
-            0911/XXXXX   <br> <br>
-
-            Auch das Kulturprogramm kommt bei uns nicht zu knapp. Jede Woche kann man bei uns im Boca lokale Größen live
-            erleben. <br> <br>
-
-            Sehen Sie sich unser Kulturprogramm an, blättern Sie sich durch unsere Speisekarte oder folgen Sie uns in den sozialen Medien.
+            <div class="address">
+            Helmstraße 2 <br> 90768 Fürth <br> 0911/XXXXX
+            </div>
+            <!-- <div> <img class="beer-logo" src="images/bier_hier.png" alt="bier logo"></div> -->
+            <div class="boca-info-text boca-info-text-second">
+              Auch das Kulturprogramm kommt bei uns nicht zu knapp. Jede Woche kann man bei uns im Boca lokale Größen live
+              erleben. Sehen Sie sich unser Kulturprogramm an, blättern Sie sich durch unsere Speisekarte oder folgen
+              Sie uns in den sozialen Medien.
+            </div>
 
 
             <div class="social">
@@ -141,10 +117,11 @@
 <section id="menu">
   <div class="container">
     <div class="row">
-      <h2 class="text-center">MEXIKANISCHES</h2>
+      <h2 class="text-center heading-kulinarisch">KULINARISCHES <a href="images/menu.pdf" target="_blank">  <img align="middle" class="boca-spicy-headline" src="images/boca_spicy.png" alt="Mund mit perperoni"></a>
+      </h2>
       <div class="col-lg-12 text-center">
         <embed type="application/pdf" src="images/menu.pdf" width="100%" height="400" class="responsive">
-        <br><a href="images/menu.pdf">download</a>
+        <br><br><a href="images/menu.pdf"><span class="download">download</span></a>
       </div>
     </div>
   </div>
@@ -174,11 +151,77 @@
 <section id="culture">
   <div class="container">
     <div class="row">
-      <h2 class="text-center"> Kulturprogramm <img class="mic-logo" src="images/mic.png" alt="microphone logo"> </h2>
+      <h2 class="text-center culture-programme"> Kulturprogramm <img class="mic-logo" src="images/mic.png" alt="microphone logo"> </h2>
+
+        <div class="box col-lg-4">
+          <img class="show-image" src="images/show_sample.png" alt="">
+          <h3>Travel&Trunks</h3>
+          <div class="show-text"> Sample text. Lorem ipsum Sed libero. Curabitur nisi. Praesent ac sem eget est egestas volutpat.  Curabitur vestibulum aliquam leo. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Praesent blandit laoreet nibh.  Nullam vel sem. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.  Phasellus dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Sed in libero ut nibh placerat accumsan. </div>
+        </div>
+
+        <div class="box col-lg-4">
+            <img class="show-image" src="images/show_sample.png" alt="">
+            <h3>Travel&Trunks</h3>
+            <div class="show-text"> Sample text. Lorem ipsum Sed libero. Curabitur nisi. Praesent ac sem eget est egestas volutpat.  Curabitur vestibulum aliquam leo. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Praesent blandit laoreet nibh.  Nullam vel sem. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.  Phasellus dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Sed in libero ut nibh placerat accumsan. </div>
+        </div>
+
+        <div class="box col-lg-4">
+          <img class="show-image" src="images/show_sample.png" alt="">
+          <h3>Travel&Trunks</h3>
+          <div class="show-text"> Sample text. Lorem ipsum Sed libero. Curabitur nisi. Praesent ac sem eget est egestas volutpat.  Curabitur vestibulum aliquam leo. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Praesent blandit laoreet nibh.  Nullam vel sem. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.  Phasellus dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Sed in libero ut nibh placerat accumsan. </div>
+        </div>
     </div>
+
+  <div class="row">
+    <div class="container-img-live">
+      <img class="col-lg-4 boca-live-img" src="images/boca_livemusic.png" alt="boca logo">
+    </div>
+
+    <!-- <div class="container-img-live">
+      <img class="col-lg-4 boca-live-img" src="images/boca_good_times.png" alt="boca logo">
+    </div>
+    <div class="container-img-live">
+      <img class="col-lg-4 boca-live-img" src="images/boca_livemusic.png" alt="boca Mund logo">
+    </div> -->
+  </div>
+
+
+
+  <div class="row">
+    <div class="box col-lg-4">
+      <img class="show-image" src="images/show_sample.png" alt="">
+      <h3>Travel&Trunks</h3>
+      <div class="show-text"> Sample text. Lorem ipsum Sed libero. Curabitur nisi. Praesent ac sem eget est egestas volutpat.  Curabitur vestibulum aliquam leo. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Praesent blandit laoreet nibh.  Nullam vel sem. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.  Phasellus dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Sed in libero ut nibh placerat accumsan. </div>
+    </div>
+
+    <div class="box col-lg-4">
+        <img class="show-image" src="images/show_sample.png" alt="">
+        <h3>Travel&Trunks</h3>
+        <div class="show-text"> Sample text. Lorem ipsum Sed libero. Curabitur nisi. Praesent ac sem eget est egestas volutpat.  Curabitur vestibulum aliquam leo. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Praesent blandit laoreet nibh.  Nullam vel sem. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.  Phasellus dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Sed in libero ut nibh placerat accumsan. </div>
+    </div>
+
+    <div class="box col-lg-4">
+      <img class="show-image" src="images/show_sample.png" alt="">
+      <h3>Travel&Trunks</h3>
+      <div class="show-text"> Sample text. Lorem ipsum Sed libero. Curabitur nisi. Praesent ac sem eget est egestas volutpat.  Curabitur vestibulum aliquam leo. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Praesent blandit laoreet nibh.  Nullam vel sem. Proin sapien ipsum, porta a, auctor quis, euismod ut, mi. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.  Phasellus dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Sed in libero ut nibh placerat accumsan. </div>
+    </div>
+  </div>
   </div>
 </section>
 
+<section id="food-background-pulledpork">
+</section>
+
+
+
+<section id="contact">
+  <h2 class="text-center contact-heading">Kontakt&Anfahrt</h2>
+  <div class="contact-text">
+    Helmstraße 2 <br> 90768 Fürth <br> 0911/XXXXX
+    <br> email@adresse.de
+  </div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.3700146881997!2d10.988382815443554!3d49.47751717935291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f559526e82d5f%3A0x31feb8bf48d1ee80!2sHelmstra%C3%9Fe+2%2C+90762+F%C3%BCrth%2C+Germany!5e0!3m2!1sen!2sco!4v1556500769123!5m2!1sen!2sco"  width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+</section>
 
 
 
