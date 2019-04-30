@@ -17,6 +17,8 @@ ul li {
  list-style: none;
  margin-right: 1em;
  margin-top: 1em;
+ border: 1.5px solid orange;
+ background: white;
 }
 
 li a {
