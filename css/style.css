@@ -3,7 +3,7 @@ body {
   font-family: 'Staatliches', cursive;
   /* background: #FFFCE1; */
   background: black;
-  color: whitesmoke;
+  color: white;
 
  }
 
@@ -20,6 +20,9 @@ ul li {
 }
 
 li a {
+ /* color: whitesmoke; */
+ /* color: rgb(58,192,); */
+
  color: black;
  text-decoration: none;
  float: right;
@@ -28,7 +31,7 @@ li a {
 }
 
 li a:hover {
- color: #7eb9be;
+ color: rgb(0,122,114);
 }
 
 li a:hover {
@@ -61,8 +64,8 @@ li a:hover {
 /* navbar end  */
 
 #boca {
-  padding-bottom: 200px;
-  background: url(../images/food/taco.jpeg) no-repeat center center fixed;
+  padding-bottom: 150px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/boca/boca_inside.jpg) no-repeat center center fixed;
 }
 
 #info {
@@ -74,7 +77,7 @@ li a:hover {
 #food-background {
   padding-bottom: 200px;
   padding-top: 300px;
-  background: url(../images/food/taco2.jpeg) no-repeat center center fixed;
+  background: url(../images/food/taco.jpeg) no-repeat center center fixed;
   margin-bottom: 100px;
 }
 
@@ -85,6 +88,15 @@ li a:hover {
   margin-bottom: 100px;
   margin-top:100px;
 }
+
+#food-background-boca-outside {
+  padding-bottom: 200px;
+  padding-top: 300px;
+  background: url(../images/boca/boca_outside_night.jpg) no-repeat center center fixed;
+  margin-bottom: 100px;
+  margin-top:100px;
+}
+
 
 #menu {
   margin-bottom: 100px;
@@ -99,9 +111,10 @@ li a:hover {
 }
 
 .nav_logo {
-  width: 400px;
-  height: 200px;
+  width: 550px;
   border-radius: 50px;
+  position: relative;
+  bottom: 100px;
 }
 /*
 .logo-left-up {
@@ -207,9 +220,18 @@ li a:hover {
   padding-right: 50px;
 }
 
+.headline-show {
+  color:#54C1B8;
+}
+
+.headline-show-dates {
+  color: orange;
+}
+
 .boca-live-img {
   position: relative;
   left:500px;
+  bottom:100px;
   width: 120px;
   margin-bottom:50px;
   margin-top:50px;
