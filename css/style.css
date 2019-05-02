@@ -1,6 +1,9 @@
 body {
   /* font-family: 'Zilla Slab Highlight', cursive; */
-  font-family: 'Staatliches', cursive;
+  /* font-family: 'Staatliches', cursive; */
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Raleway', sans-serif;
+
   /* background: #FFFCE1; */
   background: black;
   color: white;
@@ -31,7 +34,7 @@ li a {
  color: rgb(0,122,114);
  text-decoration: none;
  float: right;
- font-size: 23px;
+ font-size: 15px;
  padding: 12px;
 }
 
@@ -69,7 +72,6 @@ li a:hover {
 /* navbar end  */
 
 #boca {
-  padding-bottom: 150px;
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/boca/boca_inside.jpg) no-repeat center center fixed;
 }
 
