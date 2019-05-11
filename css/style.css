@@ -2,7 +2,9 @@ body {
   /* font-family: 'Zilla Slab Highlight', cursive; */
   /* font-family: 'Staatliches', cursive; */
   /* font-family: 'Montserrat', sans-serif; */
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Zilla Slab', serif;
+
 
   /* background: #FFFCE1; */
   background: black;
@@ -72,26 +74,27 @@ li a:hover {
 /* navbar end  */
 
 #boca {
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/boca/boca_inside.jpg) no-repeat center center fixed;
+  padding-bottom: 140px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url(../images/backgrounds/background_bar.jpg) no-repeat center center fixed;
 }
 
 #info {
   background: black;
   color: whitesmoke;
-  padding: 40px;
+  padding: 53px 0px 53px 0px;
 }
 
 #food-background {
   padding-bottom: 200px;
   padding-top: 300px;
-  background: url(../images/food/taco.jpeg) no-repeat center center fixed;
+  background: url(../images/backgrounds/background_order_here.jpg) no-repeat center center fixed;
   margin-bottom: 100px;
 }
 
 #food-background-pulledpork {
   padding-bottom: 200px;
   padding-top: 300px;
-  background: url(../images/siempre_siesta2.jpg) no-repeat center center fixed;
+  background: url(../images/backgrounds/background_guitar.jpg) no-repeat center center fixed;
   margin-bottom: 100px;
   margin-top:100px;
 }
@@ -99,11 +102,18 @@ li a:hover {
 #food-background-boca-outside {
   padding-bottom: 200px;
   padding-top: 300px;
-  background: url(../images/boca/boca_outside_night.jpg) no-repeat center center fixed;
+  background: url(../images/backgrounds/background_boca.jpg) no-repeat center center fixed;
   margin-bottom: 100px;
   margin-top:100px;
 }
 
+#background-beer {
+  padding-bottom: 200px;
+  padding-top: 300px;
+  background: url(../images/backgrounds/background_beer.jpg) no-repeat center center fixed;
+  margin-bottom: 100px;
+  margin-top:100px;
+}
 
 #menu {
   margin-bottom: 100px;
@@ -118,10 +128,8 @@ li a:hover {
 }
 
 .nav_logo {
-  width: 550px;
-  border-radius: 50px;
-  position: relative;
-  bottom: 100px;
+  width: 400px;
+  border-radius: 20px;
   /* background: whitesmoke; */
 }
 /*
@@ -163,7 +171,6 @@ li a:hover {
 
 .boca-info-text {
   font-size: 1.7rem;
-  letter-spacing: 1.5px;
 }
 
 .boca-info-text-second {
@@ -248,7 +255,8 @@ li a:hover {
 }
 
 .show-text {
-  letter-spacing: 2px;
+  font-size: 1.6rem;
+
 }
 
 .heading-kulinarisch {
@@ -277,8 +285,7 @@ li a:hover {
 
 .gallery-img {
   border-radius: 5px;
-  height: 400px;
-  width: 300px;
+
 }
 
 .heading-gallery {
