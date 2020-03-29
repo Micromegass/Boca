@@ -7,8 +7,8 @@ body {
 
 
   /* background: #FFFCE1; */
-  background: black;
-  color: white;
+  background: #FFFCE1;
+  color: black;
 
  }
 
@@ -73,14 +73,18 @@ li a:hover {
 }
 /* navbar end  */
 
+h2 {
+  color: rgb(0, 122, 114);
+}
+
 #boca {
   padding-bottom: 140px;
-  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url(../images/backgrounds/background_bar.jpg) no-repeat center center fixed;
+  /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url(../images/backgrounds/background_bar.jpg) no-repeat center center fixed;*/
 }
 
 #info {
-  background: black;
-  color: whitesmoke;
+  background: #FFFCE1;
+  color: black;
   padding: 53px 0px 53px 0px;
 }
 
@@ -273,9 +277,26 @@ li a:hover {
   color: rgb(0, 122, 114);
 }
 
-.culture-programme {
-  margin-bottom: 35px;
+/*.culture-programme {*/
+  /*margin-bottom: 35px;*/
+/*}*/
+
+
+.upcoming-events {
+  text-align: center;
 }
+
+.upcoming {
+
+  font-size:25px;
+
+}
+
+.upcoming:nth-child(even) {
+  color: rgb(0, 122, 114);
+
+}
+
 
 .contact-text {
   text-align: center;
