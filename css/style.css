@@ -74,7 +74,8 @@ li a:hover {
 /* navbar end  */
 
 h2 {
-  color: rgb(0, 122, 114);
+  color: black;
+  font-weight: bolder;
 }
 
 #boca {
@@ -88,35 +89,21 @@ h2 {
   padding: 53px 0px 53px 0px;
 }
 
-#food-background {
-  padding-bottom: 200px;
-  padding-top: 300px;
-  background: url(../images/backgrounds/background_order_here.jpg) no-repeat center center fixed;
-  margin-bottom: 100px;
+.covid {
+  margin-left: 150px;
+  font-size: medium;
+  background-color: rgb(226, 107, 107);
+  padding: 15px;
+  border-color: grey;
+  border-style: solid;
 }
 
-#food-background-pulledpork {
-  padding-bottom: 200px;
-  padding-top: 300px;
-  background: url(../images/backgrounds/background_guitar.jpg) no-repeat center center fixed;
-  margin-bottom: 100px;
-  margin-top:100px;
-}
-
-#food-background-boca-outside {
-  padding-bottom: 200px;
-  padding-top: 300px;
-  background: url(../images/backgrounds/background_boca.jpg) no-repeat center center fixed;
-  margin-bottom: 100px;
-  margin-top:100px;
-}
-
-#background-beer {
-  padding-bottom: 200px;
-  padding-top: 300px;
-  background: url(../images/backgrounds/background_beer.jpg) no-repeat center center fixed;
-  margin-bottom: 100px;
-  margin-top:100px;
+.covid-culture {
+  font-size: medium;
+  background-color: rgb(226, 107, 107);
+  padding: 15px;
+  border-color: grey;
+  border-style: solid;
 }
 
 #menu {
@@ -180,6 +167,7 @@ h2 {
 
 .boca-info-text {
   font-size: 1.7rem;
+  p
 }
 
 .boca-info-text-second {
