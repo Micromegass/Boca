@@ -3,8 +3,7 @@ body {
   /* font-family: 'Staatliches', cursive; */
   /* font-family: 'Montserrat', sans-serif; */
   /* font-family: 'Raleway', sans-serif; */
-  /* font-family: 'Zilla Slab', serif; */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Zilla Slab', serif;
 
 
   /* background: #FFFCE1; */
@@ -108,6 +107,7 @@ h2 {
   padding: 15px;
   border-color: grey;
   border-style: solid;
+  text-align: center;
 }
 
 .covid-culture {
@@ -182,6 +182,7 @@ h2 {
 
 .boca-info-text {
   font-size: 1.7rem;
+  text-align: center;
 }
 
 .boca-info-text-second {
@@ -192,7 +193,6 @@ h2 {
   display: block;
   margin-top:30px;
   font-size: 1.5rem;
-  padding-left: 180px;
 }
 
 .social a {
@@ -208,7 +208,7 @@ h2 {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .boca-spicy {margin-left:-80px;}
+  .boca-spicy {margin-left:-50px;}
 }
 
 
