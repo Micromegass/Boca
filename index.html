@@ -1,210 +1,256 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="author" content="Axel Braunschweiger">
-
+  <meta name="designer" content="Maren Sosada & David Leutert">
+  <meta name="owners" content="Jens Schmidt & Marco Graeser">
   <title>Boca</title>
-
   <!--font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
-
   <!--font styles-->
   <link href="https://fonts.googleapis.com/css?family=Staatliches|Zilla+Slab+Highlight" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script src="js/app.js"></script>
-
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
   </script>
-
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="images/logo.jpg">
-
+  <link rel="icon" href="images/logo/boca_logo.jpeg">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
   <body>
-    <section id="header">
-      <nav class="navbar navbar-static-top col-md-offset-1">
-        <span class="hidden-xs right">  </span>
-        <div class="container">
+    <section id="boca">
+        <nav class="navbar navbar-static-top col-md-offset-1">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="nav_logo" class="right"><i class="fas fa-home" style="color:	#FF00FF"></i> PARTY</span>
+              <i class="fas fa-hamburger nav-burger"></i>
             </button>
           </div>
           <div class="collapse navbar-collapse" id="nav-collapse">
+             <!--<span class="nav_logo hidden-xs logo-container" class="right"><img class="logo-left-up" src="images/logo.jpg" alt="logo Boca"></span>-->
             <ul id="nav" class="nav navbar-nav" style="float:right;">
-              <li class="right hidden-md hidden-sm"><a href="#Home">BOCA</a></li>
-              <li class="left hidden-sm"><a href="#About">WIR</a></li>
-              <li class="right"><a href="#Music">DELIKATESSEN</a></li>
-              <li class="left"><a href="#Video">VERANSTALTUNGEN</a></li>
-              <li class="right"><a href="#Shows">ANFAHRT&KONTAKT</a></li>
+              <li class="right hidden-md hidden-sm"><a href="#boca">DAS BOCA</a></li>
+              <li class="left hidden-sm"><a href="#info">INFO</a></li>
+              <li class="right"><a href="#menu"> SPEISEKARTE</a></li>
+              <li class="left"><a href="#culture">KULTUR</a></li>
+              <li class="right"><a href="#gallery">GALLERIE</a></li>
+              <li class="left"><a href="#contact">ÖFFNUGSZEITEN&KONTAKT</a></li>
             </ul>
           </div>
-        </div>
       </nav>
-    </section>
-
-
-      <section id="home">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-9 col-md-offset-3">
-              <img class="nav_logo" src="images/logo.jpg" alt="Boca Logo">
+      <!-- slider -->
+      <div class="container">
+        <div id="myCarousel" class="my-carousel carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="item active gallery nav-logo-div">
+             <img class="nav_logo img-responsive" src="images/logo/boca_logo.jpeg" alt="Boca Logo" id="">
             </div>
           </div>
         </div>
-      </section>
 
+        <br><br>
 
-    <!-- <section>
-      <div id="Banner" class="img-responsive">
-      </div>
-    </section>
-
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-lg-12 insta headings" id="instafeed"> </div>
+        <h2 class="text-center covid-headline"> CORONA SPECIAL </h2>
+        <div class="col-lg-9 col-xs-12 covid">
+          Da wir unser Lokal bis auf Weiteres geschlossen halten müssen, könnt ihr nun <span class="tmp_opening">zwischen 
+          Donnerstag und Sonntag, jeweils von 17:30-21:30</span> , Essen zum Abholen oder zum Liefern bestellen. 
+          Einfach <span class="tmp_opening"> unter 0911/63322084 vorbestellen </span> und vorbei kommen oder über Lieferando.de bestellen. 
+          Üppige Burritos, leckere Bowls und cremige Qusadillas warten auf euch. Wir bedanken uns nochmals 
+          von Ganzem Herzen für die Unterstützung und arbeiten unter Hochdruck daran, auch Frozen Margaritas 
+          liefern zu können.
         </div>
       </div>
+      <!-- end slider  -->
     </section>
 
-    <section id="About">
-      <div class="container">
-        <div class="row">
-          <h2 class="headings">ABOUT HOUSE<span style="color:#FF00FF">P</span>ARTY  <a href="https://www.dino-pizzakurier.de/" target="_blank"><span style="font-size: 1em; color: Tomato;"> <i class="fas fa-pizza-slice"></i> </span></a></h2>
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-5 box">
-            <img src="images/Houseparty_VaterStaat.jpg" alt="Houseparty Band" id="VaterStaat" class="VaterStaat" title="Foto: Jens Schmidt">
-          </div>
-          <div class="col-lg-8 box">
-            <p class="description"><strong>HOUSEPARTY</strong> (GER, Raptor Records) is a four-piece partymachine hailing from Nürnberg (GER) fueled by pizza and weißbier. It's stripped down indie-surf-punk, topped with catchy melodies. After their debut-EP “keept it simple”
-              (Raptor Records) from Spring 2018, they will release their debut-album in June 2019. The Band started in summer of 2018 and came out of some other successful projects like garage-pop-punx “No Fun” or indie-rockers “The Fountains”. Being
-              well known for fun life-performances and likable characters, Houseparty played more than 30 shows in only a couple of months after their release “keep it simple” (Raptor Records) in April 2018.
-              <br> <br> In Spring 2019 they plan to release their first full-length album, head over for a tour in the UK and play loads of festivals in summer. They also supported a good handful of influencial bands like Muncie Girls, Walter etc. and
-              Wonk Unit. The band is available for festival slots in 2019 all around Europe as well as for headline and support shows/tours. Houseparty comes from the DIY-scene and also loves to do house-shows, rehearsal-room-shows or soli-shows for the
-              politically-oppressed. If you can help out with a show, please feel free to hit us up.</p>
-          </div>
-          <div class="social">
-            <a href="https://housepartypunk.bandcamp.com/track/arco-di-lido" target="_blank"> <span style="font-size: 3em; color: Tomato;"><i class="follow fas fa-compact-disc"></i></span></a>
-            <a href="https://www.facebook.com/housepartypunk/" target="_blank"> <span style="font-size: 3em; color: Blue;"><i class="follow fab fa-facebook-f"></i></span></a>
-            <a href="https://www.instagram.com/housepartypunk/" target="_blank"> <span style="font-size: 3em; color: Orange;"><i class="follow fab fa-instagram"></i></span></a>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section id="Music">
+    <section id="info">
       <div class="container">
         <div class="row">
-          <h2 class="headings"><span style="font-size: 0.5em; color: Tomato;"><i class="follow fas fa-heart"> </i></span> MUSIC </h2>
-          <div class="img-album col-md-6 col-md-offset-0 col-lg-6 col-sm-10 col-sm-offset-2 col-xs-10 col-xs-offset-2 box">
-            <img class="album" src="images/Houseparty_Album.jpg" alt="Houseparty Album">
-          </div>
-          <div class="songlist col-md-6 col-md-offset-0 col-sm-10 col-xs-10 col-xs-offset-1 box">
-            <div>1.You are the gravy to the mashed potato that is my heart </div>
-            <div>2.There's no problem you can't handle by running away </div>
-            <div>3.In the pub with my homies </div>
-            <div>4.I got 99 problems and calling a woman bitch is one</div>
-            <div>5.Hummus where the heart is </div>
-            <div>6.Arco di lido</div>
-            <div>7.Red lights are made for kissing</div>
-            <div class="bandcamp col-sm-12 col-xs-10 col-xs-offset-1 col-lg-offset-0 col-sm-offset-0 col-md-offset-0">
-              <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2945660436/size=small/bgcol=333333/linkcol=fe7eaf/transparent=true/" seamless><a href="https://housepartypunk.bandcamp.com/track/you-are-the-gravy-to-the-mashed-potato-that-is-my-heart">Keep It Simple by Houseparty</a></iframe>
+          <h2 class="text-center heading-center"> INFO </h2>
+          <div class="col-lg-12">
+            <div class="box hidden-md hidden-sm hidden-xs col-lg-3">
+              <img class="siesta img-responsive" src="images/siesta_siempre.jpg" alt="Siesta Siempre im Boca">
+            </div>
+            <div class="box col-xs-12 col-xs-offset-0 col-sm-12 col-md-12 col-lg-7 col-lg-offset-0 boca-info-text">
+              Das BOCA eröffnete am 30.April 2019 und hat es sich zum Ziel gesetzt, mexikanische Spezialitäten mit lokalen Köstlichkeiten zu vereinen. Bei feurigen Burritos, cremigen Quesadillas und erfrischenden Margaritas fühlt man sich im BOCA wie in Tjuana, kann
+              aber gleichzeitig auch saisonale Biere genießen.
+              Auch das Kulturprogramm kommt bei uns nicht zu knapp. <br><br>
+              Jede Woche kann man bei uns im Boca lokale Größen live erleben. Sehen Sie sich unser Kulturprogramm an, 
+              blättern Sie sich durch unsere Speisekarte oder folgen Sie uns in den sozialen Medien.
+              <!-- <br><br>
+              <div class="address col-md-offset-4">
+                Helmstraße 2 <br>
+                90768 Fürth <br>
+                0911 63322084
+              </div> -->
+               <!--<div> <img class="beer-logo" src="images/bier_hier.png" alt="bier logo"></div>-->
+              <div class="boca-info-text boca-info-text-second">
+              </div>
+
+              <div class="social col-lg-12 col-lg-offset-0 col-md-10 col-md-offset-2 col-sm-11 col-sm-offset-1">
+                <a href="pdfs/tmp_menu.pdf" target="_blank">  <img align="middle" class="boca-spicy" src="images/boca_spicy.png" alt="Mund mit perperoni"></a>
+                <a href="https://web.facebook.com/BOCA-F%C3%BCrth-2014243718870904/" target="_blank"> <span style="font-size: 3em; color: Blue;"><i class="fab fa-facebook-f"></i></span></a>
+                <a href=""><span style="font-size: 3em; color: Orange;"><i class="follow fab fa-instagram"></i></span></a>
+              </div>
+            </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="Video">
-      <div class="container">
-        <div class="row">
-          <h2 class="headings"> V<span style="color:#FF00FF">i</span>DEO </h2>
-          <div class="col-lg-12"> <iframe class="col-md-12 col-sm-12 col-xs-12 col-xs-offset-0 col-sm-offset-0 col-md-offset-0" style="height: 75vh" src="https://www.youtube.com/embed/8afyD-zrLJY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe></div>
-        </div>
-      </div>
-    </section>
 
-    <section id="Shows">
+    <section id="menu">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-12 col-xs-12 col-xs-offset-0 col-sm-offset-0 col-md-offset-0">
-            <div class="songkick">
-              <h2 class="headings"> SHOWS </h2>
-              <iframe style="height: 350px;" src="https://widget.songkick.com/songkick-widget.html?artist=9930364" class="col-xs-offset-1 col-md-offset-0 col-sm-offset-0 col-sm-12 col-md-12 col-xs-10" data-theme="dark" data-track-button="on" data-detect-style="true" data-font-color="#ff6bd8"></iframe>
-            </div>
+          <h2 class="text-center heading-kulinarisch"> TEMPORÄRE SPEISEKARTE <a href="pdfs/menu.pdf" target="_blank"> </h2>
+          <div class="col-lg-12 text-center">
+            <embed type="application/pdf" src="pdfs/tmp_menu.pdf" width="100%" height="400" class="responsive">
+            <br><br><a href="pdfs/tmp_menu.pdf" target="_blank"><span class="download">download</span></a>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="Shop">
-      <div class="container">
-        <div class="row">
-          <h2 class="headings">SUPPORT US</h2>
-          <div class="box col-lg-4 col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0">
-            <div>
-              <a href="https://raptorrecordsnbg.bigcartel.com/product/houseparty-keep-it-simple-cd" target="_blank"><h3 class="headings"><strong>Digipak</strong> (CD + Digital Album) 8€</h3></a>
-              <img class="img-box" src="images/Houseparty_CD.jpg" alt="Buy Cd">
-            </div>
-            <div>
-              <p class="textshop"> Includes unlimited streaming of Keep It Simple via the free Bandcamp app, plus high-quality download in MP3, FLAC and more. </p>
-            </div>
-          </div>
-          <div class="box col-lg-4 col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0">
-            <a href="https://raptorrecordsnbg.bigcartel.com/product/houseparty-keep-it-simple-cd" target="_blank"><h3 class="headings"><strong>Cassette</strong> 8€</h3></a>
-            <img class="img-box" src="images/Houseparty_Cassette.jpg" alt="Buy USB">
-            <p class="textshop">Pretty in pink cassettes. Recorded DIY just like an old skate mix tape. Only we're too lazy to skate. Includes unlimited streaming of Keep It Simple via the free Bandcamp app, plus high-quality download in MP3, FLAC and more.</p>
-          </div>
-          <div class="box col-lg-4 col-md-4 col-sm-4 col-xs-8 col-xs-offset-2 col-sm-offset-0">
-            <a href="https://raptorrecordsnbg.bigcartel.com/product/houseparty-keep-it-simple-cd" target="_blank"><h3 class="headings"><strong>USB-Drive</strong> 8€</h3></a>
-            <img class="img-box" src="images/Houseparty_USB.jpg" alt="Buy Cassette">
-            <p class="textshop">The cassette for millennials. Comes in a metallic pink, just like some old cadillac. Or maybe not like that but still quite awesome.</p>
-          </div>
-        </div>
-        <div class="nomoney"> NO MONEY? NO PROBLEM: You can get the digital version of our album for only 5€ and our new single for only 1€ on <a href="https://housepartypunk.bandcamp.com/track/arco-di-lido" target="_blank">bandcamp</a>. Or shoot as a message telling us why
-          you can't afford it and we send you a copy for free.</div>
-      </div>
-    </section>
 
-    <section id="Picture">
+    <!-- <section id="menu">
       <div class="container">
         <div class="row">
-        </div>
-      </div>
-    </section>
-
-    <section id="Contact">
-      <div class="container">
-        <div class="row">
-          <h2 class="headings"> CHAT WITH US </h2>
-          <a href="mailto:houseparty@example.de ?Subject=Hello%20again" class="headings email cols-lg-12 col-sm-12 col-md-12 col-xs-12" target="_top">houseparty@pizza.de</a>
-          <div class="col-sm-12 col-md-12 col-xs-12">
-            <div class="social">
-              <a href="https://housepartypunk.bandcamp.com/track/arco-di-lido" target="_blank"><span style="font-size: 3em; color: Tomato; padding:10px;"><i class="fas fa-compact-disc"></i></span></a>
-              <a href="https://www.facebook.com/housepartypunk/" target="_blank"><span style="font-size: 3em; color: Blue;padding:10px"><i class="fab fa-facebook-f"></i></span></a>
-              <a href="https://www.instagram.com/housepartypunk/" target="_blank"><span style="font-size: 3em; color: Orange;padding:10px"><i class="fab fa-instagram"></i></span></a>
-            </div>
+          <h2 class="text-center heading-kulinarisch"> SPEISEKARTE <a href="pdfs/menu.pdf" target="_blank"> </h2>
+          <div class="col-lg-12 text-center">
+            <embed type="application/pdf" src="pdfs/menu.pdf" width="100%" height="400" class="responsive">
+            <br><br><a href="pdfs/menu.pdf" target="_blank"><span class="download">download</span></a>
           </div>
         </div>
       </div>
     </section> -->
 
-    <footer class="headings"> © 2019 All rights reserved </footer>
+    <section id="culture">
+      <div class="container">
+        <div class="row">
+          <h2 class="text-center culture-programme"> KULTURPROGRAMM </h2>
+            <div class="upcoming-events">
+              <h4 class="covid-culture"> Wir hoffen euch bald wieder mit lokaler und intenationaler Subkultur versorgen zu können</h4>
+              <!-- <p class="upcoming">15.01.2020: Las Carettas (Karibischer Pop-Rock)</p>
+              <p class="upcoming">22.01.2020: Die Zwei Detektive (Kultrock von Emil und die Detektive)</p>
+              <p class="upcoming">29.01.2020: Chris Padera (Singer-Songwriter-Folk)</p>
+              <p class="upcoming">05.02.2020: Johnny Campbell (Traditionals/Folk)</p>
+              <p class="upcoming">12.02.2020: Andreas Jäger (Indie-Pop)</p>
+              <p class="upcoming">19.02.2020: Sunday Morning Orchestra (Enspannter Indie-Pop)</p>
+              <p class="upcoming">26.02.2020: Wollstiefel (Politischer Anti-Folk)</p>
+              <p class="upcoming">04.03.2020: Grass Station (Bluegrass/Folk)</p> -->
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <br><br><br><br><br>
+
+    <section id="gallery">
+      <div class="container">
+        <div class="row gallery-row">
+          <h2 class="text-center heading-gallery"> GALLERY </h2>
+          <div class="col-lg-12">
+            <div class="box col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4 col-md-4 col-lg-4 gallery-box">
+              <a href="images/gallery/gallery_1.jpg" data-lightbox="gallery" data-title="Im Boca"> <img class="img-responsive gallery-img" src="images/gallery/gallery_1.jpg" alt="Burrito"> </a>
+            </div>
+            <div class="box col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4 col-md-4 col-lg-4 gallery-box">
+              <a href="images/gallery/gallery_2.jpg" data-lightbox="gallery"
+                 data-title="Drink gefällig?"> <img class="img-responsive gallery-img" src="images/gallery/gallery_2.jpg" alt="Zufriedene Gäste"> </a>
+            </div>
+            <div class="box col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4 col-md-4 col-lg- gallery-box4">
+              <a href="images/gallery/gallery_3.jpg" data-lightbox="gallery"
+                 data-title="Margaritas"> <img class="img-responsive gallery-img" src="images/gallery/gallery_3.jpg" alt="Margaritas"> </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row gallery-row">
+          <div class="col-lg-12">
+            <div class="box col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4 col-md-4 col-lg-4">
+              <a href="images/gallery/gallery_4.jpeg" data-lightbox="gallery" data-title="Live Konzert"> <img class="img-responsive gallery-img" src="images/gallery/gallery_4.jpeg" alt="Live Konzert"> </a>
+            </div>
+            <div class="box col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4 col-md-4 col-lg-4">
+              <a href="images/gallery/gallery_5.jpg" data-lightbox="gallery" data-title="The Rockin' Lafayettes"> <img class="img-responsive gallery-img" src="images/gallery/gallery_5.jpg" alt="Der Tresen"> </a>
+            </div>
+            <div class="box col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4 col-md-4 col-lg-4">
+              <a href="images/gallery/gallery_6.jpg" data-lightbox="gallery" data-title="Folk's Worst Nightmare"> <img class="img-responsive gallery-img" src="images/gallery/gallery_6.jpg" alt="Außenbereich"> </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="box col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4 col-md-4 col-lg-4">
+              <a href="images/gallery/gallery_7.jpg" data-lightbox="gallery" data-title="Gefüllter Tresen"> <img class="img-responsive gallery-img" src="images/gallery/gallery_7.jpg" alt="Das Boca von außen"> </a>
+            </div>
+            <div class="box col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4  col-md-4 col-lg-4">
+              <a href="images/gallery/gallery_8.jpg" data-lightbox="gallery" data-title="Das Boca von außen"> <img class="img-responsive gallery-img" src="images/gallery/gallery_8.jpg" alt="Burritofüllung"> </a>
+            </div>
+            <div class="box col-xs-offset-1 col-sm-offset-0 col-xs-10 col-sm-4  col-md-4 col-lg-4">
+              <a href="images/gallery/gallery_9.jpg" data-lightbox="gallery" data-title="Zufriedene Kunden"> <img class="img-responsive gallery-img" src="images/gallery/gallery_9.jpg" alt="Boca Bowl"> </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br><br>
+
+    <section id="contact">
+      <h2 class="text-center contact-heading">KONTAKT&ANFAHRT</h2>
+
+      <div class="contact-text box col-lg-12">
+        <h4 class="subheading"> - Für Fragen, Reservierungen einfach vorbeikommen oder anrufen - </h4>
+        Helmstraße 2 <br>
+        90768 Fürth  <br>
+        0911 63322084
+      </div>
+
+      <div class="öffnungszeiten box col-lg-12">
+        <!-- MO: geschlossen <br>
+        DI: 17:00 - 23:30<br>
+        MI: 17:00 - 23:30<br> -->
+        <!-- DO: 17:00 - 23:30<br>
+        FR: 17:00 - 02:00 <br>
+        SA: 17:00 - 02:00 <br>
+        SO: geschlossen <br> -->
+        <div class="covid-culture">
+          <h4 class="öffnung-heading"> - Temporäre Öffnungszeiten - </h4>
+          DO: 17:00 - 21:30<br>
+          FR: 17:00 - 21:30 <br>
+          SA: 17:00 - 21:30 <br>
+          SO: 17:00 - 21:30 <br>
+        </div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2592.3700146881997!2d10.988382815443554!3d49.47751717935291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f559526e82d5f%3A0x31feb8bf48d1ee80!2sHelmstra%C3%9Fe+2%2C+90762+F%C3%BCrth%2C+Germany!5e0!3m2!1sen!2sco!4v1556500769123!5m2!1sen!2sco"
+        width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </section>
 
 
+    <footer class="text-center"> © 2019 All rights reserved <br>
+      <a href="pdfs/privacy.pdf" target="_blank"><span class="privacy">Datenschutz</span></a>
+      <span class=> | </span>
+      <a href="pdfs/impressum.pdf" target="_blank"><span class="privacy">Impressum</span></a>
+    </footer>
 
+    <script src="js/lightbox.min.js"></script>
     <script src="js/custom.js"></script>
     <!-- <script type="text/javascript" src="js/instafeed.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/app.js"></script>
   </body>
-
 </html>

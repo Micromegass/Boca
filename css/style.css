@@ -1,28 +1,56 @@
 body {
-  font-family: 'Zilla Slab Highlight', cursive;
-  font-family: 'Staatliches', cursive;
-  background: #FFFCE1;
+  /* font-family: 'Zilla Slab Highlight', cursive; */
+  /* font-family: 'Staatliches', cursive; */
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: 'Zilla Slab', serif; */
+  font-family: Arial, Helvetica, sans-serif;
 
+
+  /* background: #FFFCE1; */
+  background: #FFFCE1;
+  color: black;
  }
 
 /* navbar */
+.navbar {
+  margin-bottom: 70px;
+}
+
+.nav-burger {
+  font-size: xx-large;
+}
+
+/* .navbar-toggle {
+  background-color: gray;
+} */
+
 ul li {
  float: right;
  list-style: none;
  margin-right: 1em;
  margin-top: 1em;
+ border: 1px solid black;
+ border-radius: 5px;;
+ background: whitesmoke;
+ opacity: 0.8;
+
+
 }
 
 li a {
- color: black;
+ /* color: whitesmoke; */
+ /* color: rgb(58,192,); */
+
+ color: rgb(0,122,114);
  text-decoration: none;
  float: right;
- font-size: 23px;
+ font-size: 15px;
  padding: 12px;
 }
 
 li a:hover {
- color: #7eb9be;
+ color: rgb(0,122,114);
 }
 
 li a:hover {
@@ -54,78 +82,268 @@ li a:hover {
 }
 /* navbar end  */
 
+h2 {
+  color: black;
+  font-weight: bolder;
+}
+
+#boca {
+  padding-bottom: 140px;
+  /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ), url(../images/backgrounds/background_bar.jpg) no-repeat center center fixed;*/
+}
+
+#info {
+  background: #FFFCE1;
+  color: black;
+  padding: 53px 0px 53px 0px;
+}
+
+@media only screen and (min-width: 992px) {
+  .covid {margin-left: 150px;}
+} 
+
+.covid {
+  font-size: medium;
+  background-color: rgb(226, 107, 107);
+  padding: 15px;
+  border-color: grey;
+  border-style: solid;
+}
+
+.covid-culture {
+  font-size: medium;
+  background-color: rgb(226, 107, 107);
+  padding: 15px;
+  border-color: grey;
+  border-style: solid;
+}
+
+#menu {
+  margin-bottom: 100px;
+}
+
+.opening-banner {
+  margin-bottom: 100px;
+}
+
+.boca-middle {
+  background: transparent
+}
 
 .nav_logo {
+  width: 400px;
+  border-radius: 20px;
+  border: 2px solid black;
+  /* background: whitesmoke; */
+}
+
+/*
+.logo-left-up {
+  width: 100px;
+  height: 100px;
   float: left;
-  margin-top: 1rem;
-  margin-left: 15px;
-  width: 50%;
+  margin-top: 10px;
+  padding: 10px;
+  transform: rotate(-20deg);
+  border-radius: 50px;
+} */
+
+.quesadilla {
+  width: 800px;
+  height: 500px;
+  border-radius: 40px;
 }
 
-
-#home {
+.boca-front {
+  width: 700px;
+  height: 400px;
+  border-radius: 10px;
+}
+.img-food {
+  margin-bottom: 30px;
+  border-radius: 5px;
 }
 
-.headings {
+.siesta {
+  border-radius: 300px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+}
+/* centralizing imgs carousel*/
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+
+.opening-banner {
   text-align: center;
-  padding-bottom: 30px;
+  font-size: 2.5rem;
+  font-style: italic;
 }
+
+.boca-info-text {
+  font-size: 1.7rem;
+}
+
+.boca-info-text-second {
+  margin-top: 50px;
+}
+
+.social {
+  display: block;
+  margin-top:30px;
+  font-size: 1.5rem;
+  padding-left: 180px;
+}
+
+.social a {
+  padding: 10px;
+
+}
+
+
 
 .description {
   font-size: 1.8rem;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .boca-spicy {margin-left:-80px;}
+}
+
+.boca-spicy {
+  width: 60px;
+  border-radius: 100px;
+  position: relative;
+  bottom:10px;
+}
+
+.boca-spicy-headline {
+  width: 60px;
+  border-radius: 100px;
+  margin-left: 15px;
+}
+
+.address {
+  text-align: left;
+  font-family: 'Zilla Slab Highlight', cursive;
+  font-size: 2.1rem;
+  font-weight: 100;
+}
+
+.show-image {
+  width: 400px;
+  padding-right: 50px;
+}
+
+.headline-show {
+  color:#54C1B8;
+}
+
+.headline-show-dates {
+  color: orange;
+}
+
+.boca-live-img {
+  position: relative;
+  left:500px;
+  bottom:100px;
+  width: 120px;
+  margin-bottom:50px;
+  margin-top:50px;
+  transform: rotate(-20deg);
+  margin-left: auto;
+}
+
+.show-text {
+  font-size: 1.6rem;
+
+}
+
+.heading-kulinarisch {
+  margin-bottom: 35px;
+}
+
+.download {
+  font-size: 2.5rem;
+  color: rgb(0, 122, 114);
+}
+
+/*.culture-programme {*/
+  /*margin-bottom: 35px;*/
+/*}*/
 
 
-/* #About, #Music, #Shows, #Shop, #Videos, #Contact {
-  margin-top: 100px;
+.upcoming-events {
+  text-align: center;
+}
+
+.upcoming {
+
+  font-size:25px;
+
+}
+
+.upcoming:nth-child(even) {
+  color: rgb(0, 122, 114);
+
+}
+
+.contact-text {
+  text-align: center;
+  font-size: 2rem;
+  padding-top:30px;
+}
+
+.öffnungszeiten {
+  text-align: center;
+  font-size: 2rem;
+  padding-top:30px;
+  padding-bottom: 100px;
+
+}
+
+
+.öffnung-heading {
+  color: rgb(0, 122, 114);
+}
+
+.subheading {
+  color: rgb(0,122,114);
+}
+
+
+.gallery-row {
   margin-bottom: 100px;
 }
 
-.insta {
-  padding-top: 90px;
-}
-
-.insta img {
-  border-radius: 30px;
-  padding: 15px;
-  width: 200px;
-  height: 200px;
+.gallery-img {
+  border-radius: 5px;
+  margin-bottom: 30px;
 
 }
 
-.social {
-  display: block;
-  text-align: center;
-
+.heading-gallery {
+  margin-bottom:50px;
 }
 
 
-
-
-
-
-
-
-#Banner {
-  background: url(../images/Houseparty_CD_dup.jpg) no-repeat center;
-  max-width: 100%;
-  padding-bottom: 500px;
+.privacy  {
+  color:#54C1B8;
 }
 
-#Music{
-  padding-bottom: 100px;
-  padding-top: 50px;
-  background: url(../images/party2.jpeg) no-repeat center center fixed;
+.tmp_opening {
+  font-weight: 900;
+  background-color:yellowgreen
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .gallery-row {margin-bottom:-5px;}
 }
 
 
-
-
-#Picture {
-  padding-bottom: 100px;
-  padding-top: 300px;
-  margin-top: 100px;
-  background: url(../images/dinos.jpeg) no-repeat center center fixed;
-
-} */
+footer {
+  padding:100px;
+}
