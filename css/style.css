@@ -22,7 +22,8 @@ ul li {
  list-style: none;
  margin-right: 1em;
  margin-top: 1em;
- border: 1px solid orange;
+ border: 1px solid black;
+ border-radius: 5px;;
  background: whitesmoke;
  opacity: 0.8;
 
@@ -89,8 +90,11 @@ h2 {
   padding: 53px 0px 53px 0px;
 }
 
+@media only screen and (min-width: 992px) {
+  .covid {margin-left: 150px;}
+} 
+
 .covid {
-  margin-left: 150px;
   font-size: medium;
   background-color: rgb(226, 107, 107);
   padding: 15px;
@@ -121,8 +125,10 @@ h2 {
 .nav_logo {
   width: 400px;
   border-radius: 20px;
+  border: 2px solid black;
   /* background: whitesmoke; */
 }
+
 /*
 .logo-left-up {
   width: 100px;
@@ -153,6 +159,7 @@ h2 {
 .siesta {
   border-radius: 300px;
   margin-bottom: 50px;
+  border: 1px solid black;
 }
 /* centralizing imgs carousel*/
 .carousel-inner > .item > img {
@@ -167,22 +174,22 @@ h2 {
 
 .boca-info-text {
   font-size: 1.7rem;
-  p
 }
 
 .boca-info-text-second {
-  margin-top:50px;
+  margin-top: 50px;
 }
 
 .social {
   display: block;
-  text-align: center;
   margin-top:30px;
   font-size: 1.5rem;
+  padding-left: 180px;
 }
 
 .social a {
   padding: 10px;
+
 }
 
 .fa-facebook-f, .fa-instagram {
@@ -205,6 +212,11 @@ h2 {
 
 .description {
   font-size: 1.8rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .boca-spicy {margin-left:-80px;}
 }
 
 .boca-spicy {
