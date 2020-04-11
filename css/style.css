@@ -9,13 +9,16 @@ body {
   /* background: #FFFCE1; */
   background: #FFFCE1;
   color: black;
-
  }
 
 /* navbar */
 .navbar {
   margin-bottom: 70px;
 }
+
+/* .navbar-toggle {
+  background-color: gray;
+} */
 
 ul li {
  float: right;
@@ -192,23 +195,7 @@ h2 {
 
 }
 
-.fa-facebook-f, .fa-instagram {
-}
 
-.mic-logo {
-  width: 50px;
-  border-radius: 100px;
-  margin-left: 15px;
-}
-
-.beer-logo {
-  width: 120px;
-  position: relative;
-  bottom: 90px;
-  left:30px;
-  border-radius: 20px;
-
-}
 
 .description {
   font-size: 1.8rem;
@@ -339,6 +326,18 @@ h2 {
 .privacy  {
   color:#54C1B8;
 }
+
+.tmp_opening {
+  font-weight: 900;
+  background-color:yellowgreen
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .gallery-row {margin-bottom:-5px;}
+}
+
 
 footer {
   padding:100px;
